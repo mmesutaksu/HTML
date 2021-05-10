@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 30px;
+}
+/* solid | double | dashed */
+.tablo {
+  border: 4px solid grey;
+  border-collapse: collapse;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Birden fazla ayni stillendirme yapilacaksa virgül ile ayrilarak yazilabilir */
+th,
+td {
+  border: 2px solid grey;
+}
+th {
+  background-color: yellowgreen;
+}
+/* Üstüne gelindiginde renk degistirmeye yarar */
+tr:hover {
+  background-color: rgb(148, 78, 78);
+}
+tr:nth-child(even) {
+  background-color: rgb(202, 200, 200);
+}
